@@ -1,3 +1,4 @@
+'use strict'
 const w = window;
 const q = document;
 const d = q.getElementById;
