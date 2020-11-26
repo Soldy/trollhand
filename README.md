@@ -16,6 +16,8 @@ The blackhole can recognise the TrollHand so that should be fine. \
 
 # How to use it.
 
+## Tag trolling.
+
 | key | linked to                 | C.C | C.S |
 |-----|---------------------------|-----|-----|
 |  w  | window                    |  Y  |  N  |
@@ -32,6 +34,16 @@ The blackhole can recognise the TrollHand so that should be fine. \
 lower case for get 
 
 upper case for set 
+
+## object trolling.
+
+| key | function                  | int | string |
+|-----|---------------------------|-----|--------|
+|  T  | toString                  |  Y  |    Y   |
+|  F  | parseFloat                |  Y  |    Y   |
+|  I  | parseInt                  |  Y  |    Y   |
+|  P  | parseInt().toStringi()    |  Y  |    Y   |
+|  R  | replace                   |  N  |    Y   |
 
 
 # examples
