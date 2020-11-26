@@ -131,3 +131,35 @@ const tS = function(i, s, v){
     return true;
 }
 
+
+// inbuilt object extra
+String.prototype.T = function () {
+    return this.toString();
+}
+String.prototype.F = function () {
+    return parseFloat(this);
+}
+String.prototype.I = function () {
+    return parseInt(this);
+}
+String.prototype.P = function () {
+    return parseInt(this).toString();
+}
+String.prototype.R = function (a, b) {
+    return this.replace(a, b);
+}
+Number.prototype.T = function () {
+    return this.toString();
+}
+Number.prototype.F = function () {
+    return parseFloat(this);
+}
+Number.prototype.I = function () {
+    return parseInt(this);
+}
+Number.prototype.P = function () {
+    return  parseInt(this).toString();
+}
+
+
+
