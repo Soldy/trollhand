@@ -42,7 +42,7 @@ upper case for set
 |  T  | toString                  |  Y  |    Y   |
 |  F  | parseFloat                |  Y  |    Y   |
 |  I  | parseInt                  |  Y  |    Y   |
-|  P  | parseInt().toStringi()    |  Y  |    Y   |
+|  P  | parseInt().toString()     |  Y  |    Y   |
 |  R  | replace                   |  N  |    Y   |
 
 
@@ -72,6 +72,54 @@ upper case for set
 // <div id='element_id' class='some clasess here'></div>
     dc('element_id');
 // return : 'some clasess here'
+
+```
+
+
+## get element innerHTML
+
+```javascript 
+// <div id='element_id'> cool html part</div>
+    di('element_id');
+// return : '2 cool html part'
+
+```
+
+## get element innerHTML with parseInt
+
+```javascript 
+// <div id='element_id'> cool html part</div>
+    di('element_id').I();
+// return : 2
+
+```
+
+
+
+## get element innerHTML with parseInt toString
+
+```javascript 
+// <div id='element_id'> cool html part</div>
+    di('element_id').I().T();
+// return : '2'
+
+```
+
+or
+
+```javascript 
+// <div id='element_id'> cool html part</div>
+    di('element_id').P();
+// return : '2'
+
+```
+
+## set element innerHTML 
+
+```javascript 
+// <div id='element_id'> cool html part</div>
+    di('element_id', ' VOW ');
+// result :  <div id='element_id'> VOW </div>
 
 ```
 
