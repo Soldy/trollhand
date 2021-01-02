@@ -118,7 +118,7 @@ or
 
 ```javascript 
 // <div id='element_id'> cool html part</div>
-    di('element_id', ' VOW ');
+    dI('element_id', ' VOW ');
 // result :  <div id='element_id'> VOW </div>
 
 ```
