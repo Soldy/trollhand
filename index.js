@@ -8,12 +8,19 @@ const t = q.getElementsByTagName;
 
 /*
  * @param {string}
- * @param {string}
  * return {string}
  *
 */
 const dc = function(i){
     return d(i).className;
+};
+/*
+ * @param {string}
+ * return {string}
+ *
+*/
+const dd = function(i){
+    return d(i).getAttribute('id');
 };
 /*
  * @param {string}
@@ -90,6 +97,14 @@ const dS = function(i, s, v){
 */
 const cc = function(i){
     return c(i)[0].className;
+};
+/*
+ * @param {string}
+ * return {string}
+ *
+*/
+const cd = function(i){
+    return c(i)[0].getAttribute('id');
 };
 /* 
  * @param {string}
@@ -182,6 +197,14 @@ const cS = function(i, s, v){
 const nc = function(i){
     return n(i)[0].className;
 };
+/*
+ * @param {string}
+ * return {string}
+ *
+*/
+const nd = function(i){
+    return n(i)[0].getAttribute('id');
+};
 /* 
  * @param {string}
  * return {string}
@@ -273,6 +296,14 @@ const nS = function(i, s, v){
 */
 const tc = function(i){
     return t(i)[0].className;
+};
+/*
+ * @param {string}
+ * return {string}
+ *
+*/
+const td = function(i){
+    return t(i)[0].getAttribute('id');
 };
 /*
  * @param {string}
