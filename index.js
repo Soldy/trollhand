@@ -8,6 +8,15 @@ const t = q.getElementsByTagName;
 
 /*
  * @param {string}
+ * @param {string}
+ * return {string}
+ *
+*/
+const dc = function(i){
+    return d(i).className;
+};
+/*
+ * @param {string}
  * return {string}
  *
 */
@@ -45,6 +54,14 @@ const dl = function(i){
  * @param {string}
  * @return {boolean}
 */
+const dC = function(i, v){
+    return d(i).className = v;
+};
+/*
+ * @param {string}
+ * @param {string}
+ * @return {boolean}
+*/
 const dV = function(i, v){
     return d(i).value = v;
 };
@@ -66,6 +83,14 @@ const dS = function(i, s, v){
 };
 
 
+/* 
+ * @param {string}
+ * return {string}
+ *
+*/
+const cc = function(i){
+    return c(i)[0].className;
+};
 /* 
  * @param {string}
  * return {string}
@@ -97,6 +122,18 @@ const cs = function(i, s){
 */
 const cl = function(i){
     return c(i).length;
+};
+/*
+ * @param {string}
+ * @param {string}
+ * @return {boolean}
+*/
+const cC = function(i, v){
+    if(typeof c(i) === 'undefined')
+        return false;
+    for (let u = 0 ; cl(i) > u ; u++)
+        c(i)[u].className = v;
+    return true;
 };
 /*
  * @param {string}
@@ -142,6 +179,14 @@ const cS = function(i, s, v){
  * return {string}
  *
 */
+const nc = function(i){
+    return n(i)[0].className;
+};
+/* 
+ * @param {string}
+ * return {string}
+ *
+*/
 const nv = function(i){
     return n(i)[0].value;
 };
@@ -168,6 +213,18 @@ const ns = function(i, s){
 */
 const nl = function(i){
     return n(i).length;
+};
+/*
+ * @param {string}
+ * @param {string}
+ * @return {boolean}
+*/
+const nC = function(i, v){
+    if(typeof n(i) === 'undefined')
+        return false;
+    for (let u = 0 ; nl(i) > u ; u++)
+        n(i)[u].className = v;
+    return true;
 };
 /*
  * @param {string}
@@ -214,6 +271,14 @@ const nS = function(i, s, v){
  * return {string}
  *
 */
+const tc = function(i){
+    return t(i)[0].className;
+};
+/*
+ * @param {string}
+ * return {string}
+ *
+*/
 const tv = function(i){
     return t(i)[0].value;
 };
@@ -240,6 +305,18 @@ const ts = function(i, s){
 */
 const tl = function(i){
     return t(i).length;
+};
+/*
+ * @param {string}
+ * @param {string}
+ * @return {boolean}
+*/
+const tC = function(i, v){
+    if(typeof t(i) === 'undefined')
+        return false;
+    for (let u = 0 ; tl(i) > u ; u++)
+        t(i)[u].className = v;
+    return true;
 };
 /*
  * @param {string}
