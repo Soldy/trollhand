@@ -18,18 +18,19 @@ The blackhole can recognise the TrollHand so that should be fine. \
 
 ## Tag trolling.
 
-| key | linked to                 | C.C | C.S |
-|-----|---------------------------|-----|-----|
-|  w  | window                    |  Y  |  N  |
-|  q  | document                  |  Y  |  N  |
-|  d  | document.getElementById   |  Y  |  N  |
-|  c  | getElementsByClassName    |  Y  |  N  |
-|  n  | getElementsByName         |  Y  |  N  |
-|  t  | getElementsByTagName      |  Y  |  N  |
-|  v  | value                     |  N  |  Y  |
-|  i  | innerHtml                 |  N  |  Y  |
-|  s  | style                     |  N  |  Y  |
-|  l  | length                    |  N  |  N  |
+| key | linked to                 | C.C | C.S | set | get |
+|-----|---------------------------|-----|-----| ----| ----|
+|  w  | window                    |  Y  |  N  |  -  |  -  |
+|  q  | document                  |  Y  |  N  |  -  |  -  |
+|  d  | document.getElementById   |  Y  |  N  |  -  |  -  |
+|  c  | getElementsByClassName    |  Y  |  N  |  -  |  -  |
+|  n  | getElementsByName         |  Y  |  N  |  -  |  -  |
+|  t  | getElementsByTagName      |  Y  |  N  |  -  |  -  |
+|  v  | value                     |  N  |  Y  |  Y  |  Y  |
+|  i  | innerHtml                 |  N  |  Y  |  Y  |  Y  |
+|  s  | style                     |  N  |  Y  |  Y  |  Y  |
+|  r  | remove                    |  N  |  Y  |  Y  |  N  |
+|  l  | length                    |  N  |  N  |  Y  |  Y  |
 
 lower case for get 
 
