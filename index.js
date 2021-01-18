@@ -1,10 +1,18 @@
 'use strict';
 const w = window;
 const q = document;
-const d = q.getElementById;
-const c = q.getElementsByClassName;
-const n = q.getElementsByName;
-const t = q.getElementsByTagName;
+const d = (i)=>{
+    return q.getElementById(i);
+}
+const c = (i)=>{
+    return q.getElementsByClassName(i);
+}
+const n = (i)=>{
+    return  q.getElementsByName(i);
+}
+const t = (i)=>{
+    return q.getElementsByTagName(i);
+}
 
 /*
  * @param {string}
