@@ -46,6 +46,9 @@ upper case for set
 |  P  | parseInt().toString()     |  Y  |    Y   |
 |  R  | replace                   |  N  |    Y   |
 
+## absolute trolling 
+
+S = never die try
 
 # examples
 

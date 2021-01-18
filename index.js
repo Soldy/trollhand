@@ -3,24 +3,26 @@ const w = window;
 const q = document;
 const d = (i)=>{
     return q.getElementById(i);
-}
+};
 const c = (i)=>{
     return q.getElementsByClassName(i);
-}
+};
 const n = (i)=>{
     return  q.getElementsByName(i);
-}
+};
 const t = (i)=>{
     return q.getElementsByTagName(i);
-}
+};
+const Er = []; // emergency 
+
 
 /*
  * @param {string}
  * return {string}
  *
 */
-const dc = function(i){
-    return d(i).className;
+const dR = function(i){
+    return d(i).remove();
 };
 /*
  * @param {string}
@@ -98,6 +100,14 @@ const dS = function(i, s, v){
 };
 
 
+/* 
+ * @param {string}
+ * return {string}
+ *
+*/
+const cR = function(i){
+    return c(i)[0].remove();
+};
 /* 
  * @param {string}
  * return {string}
@@ -197,6 +207,14 @@ const cS = function(i, s, v){
 
 
 
+/* 
+ * @param {string}
+ * return {string}
+ *
+*/
+const nR = function(i){
+    return n(i)[0].remove();
+};
 /* 
  * @param {string}
  * return {string}
@@ -302,6 +320,14 @@ const nS = function(i, s, v){
  * return {string}
  *
 */
+const tR = function(i){
+    return t(i)[0].remove();
+};
+/*
+ * @param {string}
+ * return {string}
+ *
+*/
 const tc = function(i){
     return t(i)[0].className;
 };
@@ -394,6 +420,26 @@ const tS = function(i, s, v){
     return true;
 };
 
+
+/* Stay alive stayin alive :D
+ * @param {string}
+ * @param {array}
+ * @return {boolean}
+*/
+const S = function(f, v){ //stay a live :D 
+    try{
+        if(v.length === 1)
+            f(v[0]);
+        else if(v.length === 2)
+            f(v[0], v[1]);
+        else if(v.length === 3)
+            f(v[0], v[1], v[2]);
+        return true;
+    }catch(e){
+        Er.push(e);
+        return false;
+    }
+};
 
 // inbuilt object extra
 String.prototype.T = function () {
