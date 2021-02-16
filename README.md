@@ -28,9 +28,10 @@ The blackhole can recognise the TrollHand so that should be fine. \
 |  t  | getElementsByTagName      |  Y  |  N  |  -  |  -  |
 |  v  | value                     |  N  |  Y  |  Y  |  Y  |
 |  i  | innerHtml                 |  N  |  Y  |  Y  |  Y  |
+|  i  | textContent               |  N  |  Y  |  Y  |  Y  |
 |  s  | style                     |  N  |  Y  |  Y  |  Y  |
 |  r  | remove                    |  N  |  Y  |  Y  |  N  |
-|  l  | length                    |  N  |  N  |  Y  |  Y  |
+|  l  | length                    |  N  |  Y  |  N  |  Y  |
 
 lower case for get 
 
