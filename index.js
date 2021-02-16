@@ -13,37 +13,33 @@ const n = (i)=>{
 const t = (i)=>{
     return q.getElementsByTagName(i);
 };
-const Er = []; // emergency 
+const Er = []; //  :) 
 
 
 /*
  * @param {string}
- * return {string}
- *
+ * @return {string}
 */
 const dR = function(i){
     return d(i).remove();
 };
 /*
  * @param {string}
- * return {string}
- *
+ * @return {string}
 */
 const dd = function(i){
     return d(i).getAttribute('id');
 };
 /*
  * @param {string}
- * return {string}
- *
+ * @return {string}
 */
 const dv = function(i){
     return d(i).value;
 };
 /*
  * @param {string}
- * return {string}
- *
+ * @return {string}
 */
 const di = function(i){
     return d(i).innerHTML;
@@ -51,8 +47,7 @@ const di = function(i){
 /*
  * @param {string}
  * @param {string}
- * return {string}
- *
+ * @return {string}
 */
 const ds = function(i, s){
     return d(i).style[s];
@@ -102,7 +97,7 @@ const dS = function(i, s, v){
 
 /* 
  * @param {string}
- * return {string}
+ * @return {string}
  *
 */
 const cR = function(i){
@@ -110,32 +105,28 @@ const cR = function(i){
 };
 /* 
  * @param {string}
- * return {string}
- *
+ * @return {string}
 */
 const cc = function(i){
     return c(i)[0].className;
 };
 /*
  * @param {string}
- * return {string}
- *
+ * @return {string}
 */
 const cd = function(i){
     return c(i)[0].getAttribute('id');
 };
 /* 
  * @param {string}
- * return {string}
- *
+ * @return {string}
 */
 const cv = function(i){
     return c(i)[0].value;
 };
 /*
  * @param {string}
- * return {string}
- *
+ * @return {string}
 */
 const ci = function(i){
     return c(i)[0].innerHTML;
@@ -143,8 +134,7 @@ const ci = function(i){
 /*
  * @param {string}
  * @param {string}
- * return {string}
- *
+ * @return {string}
 */
 const cs = function(i, s){
     return c(i)[0].style[s];
@@ -209,40 +199,35 @@ const cS = function(i, s, v){
 
 /* 
  * @param {string}
- * return {string}
- *
+ * @return {string}
 */
 const nR = function(i){
     return n(i)[0].remove();
 };
 /* 
  * @param {string}
- * return {string}
- *
+ * @return {string}
 */
 const nc = function(i){
     return n(i)[0].className;
 };
 /*
  * @param {string}
- * return {string}
- *
+ * @return {string}
 */
 const nd = function(i){
     return n(i)[0].getAttribute('id');
 };
 /* 
  * @param {string}
- * return {string}
- *
+ * @return {string}
 */
 const nv = function(i){
     return n(i)[0].value;
 };
 /*
  * @param {string}
- * return {string}
- *
+ * @return {string}
 */
 const ni = function(i){
     return n(i)[0].innerHTML;
@@ -250,8 +235,7 @@ const ni = function(i){
 /*
  * @param {string}
  * @param {string}
- * return {string}
- *
+ * @return {string}
 */
 const ns = function(i, s){
     return n(i)[0].style[s];
@@ -317,40 +301,35 @@ const nS = function(i, s, v){
 
 /*
  * @param {string}
- * return {string}
- *
+ * @return {string}
 */
 const tR = function(i){
     return t(i)[0].remove();
 };
 /*
  * @param {string}
- * return {string}
- *
+ * @return {string}
 */
 const tc = function(i){
     return t(i)[0].className;
 };
 /*
  * @param {string}
- * return {string}
- *
+ * @return {string}
 */
 const td = function(i){
     return t(i)[0].getAttribute('id');
 };
 /*
  * @param {string}
- * return {string}
- *
+ * @return {string}
 */
 const tv = function(i){
     return t(i)[0].value;
 };
 /*
  * @param {string}
- * return {string}
- *
+ * @return {string}
 */
 const ti = function(i){
     return t(i)[0].innerHTML;
@@ -358,8 +337,7 @@ const ti = function(i){
 /*
  * @param {string}
  * @param {string}
- * return {string}
- *
+ * @return {string}
 */
 const ts = function(i, s){
     return t(i)[0].style[s];
