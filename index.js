@@ -46,6 +46,13 @@ const di = function(i){
 };
 /*
  * @param {string}
+ * @return {string}
+*/
+const dx = function(i){
+    return d(i).textContent;
+};
+/*
+ * @param {string}
  * @param {string}
  * @return {string}
 */
@@ -84,6 +91,14 @@ const dV = function(i, v){
 */
 const dI = function(i, v){
     return d(i).innerHTML = v;
+};
+/*
+ * @param {string}
+ * @param {string}
+ * @return {boolean}
+*/
+const dX = function(i, v){
+    return cd(i).textContent = v;
 };
 /*
  * @param {string}
@@ -130,6 +145,13 @@ const cv = function(i){
 */
 const ci = function(i){
     return c(i)[0].innerHTML;
+};
+/*
+ * @param {string}
+ * @return {string}
+*/
+const cx = function(i){
+    return c(i)[0].textContent;
 };
 /*
  * @param {string}
@@ -187,6 +209,18 @@ const cI = function(i, v){
  * @param {string}
  * @return {boolean}
 */
+const cX = function(i, v){
+    if(typeof c(i) === 'undefined')
+        return false;
+    for (let u = 0 ; c(i) > u ; u++)
+        c(i)[u].textContent = v;
+    return true;
+};
+/*
+ * @param {string}
+ * @param {string}
+ * @return {boolean}
+*/
 const cS = function(i, s, v){
     if(typeof c(i) === 'undefined')
         return false;
@@ -231,6 +265,13 @@ const nv = function(i){
 */
 const ni = function(i){
     return n(i)[0].innerHTML;
+};
+/*
+ * @param {string}
+ * @return {string}
+*/
+const nx = function(i){
+    return n(i)[0].textContent;
 };
 /*
  * @param {string}
@@ -288,6 +329,18 @@ const nI = function(i, v){
  * @param {string}
  * @return {boolean}
 */
+const nX = function(i, v){
+    if(typeof n(i) === 'undefined')
+        return false;
+    for (let u = 0 ; nl(i) > u ; u++)
+        n(i)[u].textContent = v;
+    return true;
+};
+/*
+ * @param {string}
+ * @param {string}
+ * @return {boolean}
+*/
 const nS = function(i, s, v){
     if(typeof n(i) === 'undefined')
         return false;
@@ -333,6 +386,13 @@ const tv = function(i){
 */
 const ti = function(i){
     return t(i)[0].innerHTML;
+};
+/*
+ * @param {string}
+ * @return {string}
+*/
+const tx = function(i){
+    return t(i)[0].textContent;
 };
 /*
  * @param {string}
@@ -383,6 +443,18 @@ const tI = function(i, v){
         return false;
     for (let u = 0 ; tl(i) > u ; u++)
         t(i)[u].innerHTML = v;
+    return true;
+};
+/*
+ * @param {string}
+ * @param {string}
+ * @return {boolean}
+*/
+const tX = function(i, v){
+    if(typeof t(i) === 'undefined')
+        return false;
+    for (let u = 0 ; tl(i) > u ; u++)
+        t(i)[u].textContent = v;
     return true;
 };
 /*
