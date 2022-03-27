@@ -1,0 +1,23 @@
+{
+  "name": "trollhand",
+  "version": "0.0.2",
+  "description": "HTML short hand collection for fun.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Soldy/trollhand.git"
+  },
+  "keywords": [],
+  "author": "Soldy <npmjs@gidigi.com> (http://gidigi.com)",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Soldy/trollhand/issues"
+  },
+  "4homepage": "https://github.com/Soldy/trollhand#readme",
+  "devDependencies": {
+    "nanoTest": "^0.9.9-beta5"
+  }
+}
